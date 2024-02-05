@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F2A2A;
+    width: 100vw;
+    
+}
+
+#logo {
+   /* Ajuste o tamanho conforme necessário */
+   width: 150px;
+   margin-left: 2vw; 
+}
+
+.navbar ul {
+   list-style-type: none;
+   margin-left: 10vw;
+   margin-top: 2vh;
+}
+
+.navbar li {
+   display: inline;
+   margin-top: -5vh;
+   margin-left: 20px;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.letras {
+   color: #F7C334;
+   
+}
+
+.cart {
+   position: fixed;
+   left: 67.5vw;
+   top: 4vh;
+}
+
+.img-group-1 {
+   margin-top: 5.5vh;
+   left: 40vw;
+   margin-bottom: 1vh;
+}
+
+.button1 {
+   margin-right: 5vw;
+   width: 20vh;
+   height: 5vh;
+   border-radius: 20px;
+   border: none;
+   background-color: #F7C334;
+   color: #FFFFFF;
+}
